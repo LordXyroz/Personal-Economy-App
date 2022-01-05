@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PersonalEconomy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/customColorPrimaryDark</item>
+        <!-- Customize your theme here. -->
+        <item name="customBackgroundColor">#272822</item>
+        <item name="customColorPrimary">#66d9ef</item>
+        <item name="customColorPrimaryLight">#9dffff</item>
+        <item name="customColorPrimaryDark">#23a7bc</item>
+        <item name="customColorOnPrimary">@color/black</item>
+        <item name="customColorSecondary">#ae81ff</item>
+        <item name="customColorSecondaryLight">#e2b1ff</item>
+        <item name="customColorSecondaryDark">#7b53cb</item>
+        <item name="customColorOnSecondary">@color/black</item>
+        <item name="customColorTertiary">#a6e22e</item>
+        <item name="customColorTertiaryLight">#dbff66</item>
+        <item name="customColorTertiaryDark">#72b000</item>
+        <item name="customColorOnTertiary">@color/black</item>
+    </style>
+    <attr name="customBackgroundColor" format="reference|color"/>
+    <attr name="customColorPrimary" format="reference|color"/>
+    <attr name="customColorPrimaryLight" format="reference|color"/>
+    <attr name="customColorPrimaryDark" format="reference|color"/>
+    <attr name="customColorOnPrimary" format="reference|color"/>
+    <attr name="customColorSecondary" format="reference|color"/>
+    <attr name="customColorSecondaryLight" format="reference|color"/>
+    <attr name="customColorSecondaryDark" format="reference|color"/>
+    <attr name="customColorOnSecondary" format="reference|color"/>
+    <attr name="customColorTertiary" format="reference|color"/>
+    <attr name="customColorTertiaryLight" format="reference|color"/>
+    <attr name="customColorTertiaryDark" format="reference|color"/>
+    <attr name="customColorOnTertiary" format="reference|color"/>
+</resources>
